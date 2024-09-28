@@ -1,0 +1,18 @@
+{
+  "name": "backendbyprince",
+  "version": "1.0.0",
+  "description": "this is my first backend with prince",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon server.js"
+  },
+  "author": "deepak patidar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "mongoose": "^8.6.3",
+    "nodemon": "^3.1.7"
+  }
+}
