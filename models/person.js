@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const PORT = process.env.PORT;
-
+  
 const personSchema = new mongoose.Schema({
     name:{
         type:String,
